@@ -15,6 +15,9 @@
 .cabecalho2-imagem{
     width: 40%;
  }
+ .cabecalho3-imagem{
+    width: 60%;
+ }
 
 
 .rural{
@@ -41,11 +44,4 @@
 }
 
 
-.escola{
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 0;
-}
 
