@@ -16,8 +16,16 @@
     width: 40%;
  }
  .cabecalho3-imagem{
-    width: 60%;
- }
+    width: 55%;
+    overflow: auto; /* Garante que o container se ajuste ao conteúdo flutuante */
+}
+
+.imagem {
+    float: left; /* Faz com que a imagem flutue à esquerda */
+    margin-right: 15px; /* Espaço entre a imagem e o texto */
+}
+
+
 
 
 .rural{
@@ -44,4 +52,16 @@
 }
 
 
+.container {
+    overflow: hidden; /* Garante que o container se ajuste ao conteúdo flutuante */
+}
+
+.imagem {
+    float: left; /* Faz com que a imagem flutue à esquerda */
+    margin-right: 15px; /* Espaço entre a imagem e o texto */
+}
+
+.texto {
+    /* Adicione estilos adicionais para o texto se necessário */
+}
 
